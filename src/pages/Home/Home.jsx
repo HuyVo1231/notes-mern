@@ -78,12 +78,9 @@ const Home = () => {
   const updateIsPinned = async (noteData) => {
     const noteId = noteData._id
     try {
-      const response = await axiosInstance.put(
-        '/v1/update-note-pinned/' + noteId,
-        {
-          isPinned: !noteData.isPinned
-        }
-      )
+      const response = await axiosInstance.put('/v1/update-note-pinned/' + noteId, {
+        isPinned: !noteData.isPinned
+      })
 
       if (response.data && response.data.note) {
         handleShowToastMessage('Note updated successfully')
@@ -116,11 +113,7 @@ const Home = () => {
         getAllNotes()
       }
     } catch (error) {
-      if (
-        error.response &&
-        error.response.data &&
-        error.response.data.message
-      ) {
+      if (error.response && error.response.data && error.response.data.message) {
         console.log('An unexpected error occurred. Please try again')
       }
     }
@@ -135,8 +128,8 @@ const Home = () => {
   }
 
   useEffect(() => {
-    getAllNotes()
     getUserInfo()
+    getAllNotes()
   }, [])
 
   return (

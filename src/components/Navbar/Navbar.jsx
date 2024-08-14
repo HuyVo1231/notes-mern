@@ -2,12 +2,13 @@ import ProfileInfo from '../Cards/ProfileInfo'
 import { useNavigate } from 'react-router-dom'
 import SearchBar from '../SearchBar/SearchBar'
 import { useState } from 'react'
+import axiosInstance from './../../utils/axiosInstance'
 
 const Navbar = ({ userInfo, onSearchNote, handleClearSearch }) => {
   const [searchQuery, setSearchQuery] = useState('')
   const navigate = useNavigate()
 
-  const onLogOut = () => {
+  const onLogOut = async () => {
     localStorage.clear()
     navigate('/login')
   }
