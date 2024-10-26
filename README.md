@@ -7,14 +7,17 @@
 
 
 - Homepage
-  ![image](https://github.com/user-attachments/assets/a19d010b-6734-44ba-a229-09e5aed74a34)
+![image](https://github.com/user-attachments/assets/53d4c113-f214-4c51-8a72-accec8cf52b5)
+
 
 - Thêm 1 note
-![image](https://github.com/user-attachments/assets/9c55d83b-c428-47bb-a9f6-6f89bb77438d)
+![image](https://github.com/user-attachments/assets/49a57e76-2675-4e03-bae6-95a889259287)
+
 
 
 - Edit 1 note
-  ![image](https://github.com/user-attachments/assets/82a83ff0-5fcb-48fe-93f2-ba600bddbf8a)
+ ![image](https://github.com/user-attachments/assets/a145a06f-b078-4ab3-83d9-8b8fa9ba1a7e)
+
   
 - Login (phần login với google đăng bị lỗi)
   ![image](https://github.com/user-attachments/assets/ec21680d-ebdc-4e0e-a454-27eab355b2c7)
